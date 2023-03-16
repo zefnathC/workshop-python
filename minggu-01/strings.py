@@ -50,4 +50,8 @@ print(word[:4]+word[4:])
 print(word[4:42])
 print(word[42:])
 
-print('J'+word[0])
+print('J'+word[1:])
+print(word[:2]+'py')
+
+s = 'supercalifragilisticexpialidocious'
+print(len(s))
