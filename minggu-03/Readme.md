@@ -1,0 +1,1 @@
+pada file minggu ke-3 berisi tentang hal untuk mendetail, dan menambahkan beberapa hal baru juga.
