@@ -1,0 +1,19 @@
+Input and Output
+
+Ada beberapa cara untuk mempresentasikan output dari suatu program; data dapat dicetak dalam bentuk yang dapat dibaca manusia, atau ditulis ke file untuk digunakan di masa mendatang. Bab ini akan membahas beberapa kemungkinan.
+
+- Fancier Output Formatting
+Sejauh ini kita menemukan dua cara penulisan nilai: pernyataan ekspresi dan fungsi print(). 
+(Cara ketiga menggunakan metode write() dari objek file; file output standar dapat dirujuk sebagai sys.stdout.
+
+- Reading and Writing Files
+open() mengembalikan objek file, dan paling sering digunakan dengan dua argumen posisional dan satu argumen kata kunci: open(filename, mode, encoding=None)
+
+f = open('workfile', 'w', encoding="utf-8")
+
+Argumen pertama adalah string yang berisi nama file. Argumen kedua adalah string lain yang berisi beberapa karakter yang menjelaskan cara penggunaan file.
+mode bisa 'r' saat file hanya akan dibaca, 'w' hanya untuk menulis (file yang ada dengan nama yang sama akan dihapus), dan 'a' membuka file untuk ditambahkan; 
+data apa pun yang ditulis ke file secara otomatis ditambahkan ke akhir. 
+'r+' membuka file untuk membaca dan menulis. Argumen mode bersifat opsional; 'r' akan diasumsikan jika dihilangkan.
+
+
