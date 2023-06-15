@@ -1,0 +1,5 @@
+{
+    "dataworkspace.excludedProjects": [
+        "minggu-7/laravel/laravel.sqlproj"
+    ]
+}
